@@ -1,0 +1,14 @@
+**/Debug/
+**/Release/
+**/.vs/
+**/ ipch/
+*.sdf
+*.suo
+*.user
+*.opendb
+
+/HackTIM/hack.txt
+/HackTIM/hackTIM.txt
+/hackTIM.txt
+/腾讯TIM.exe
+/AutoAim_FindColor/思维导图_20181217.jpg

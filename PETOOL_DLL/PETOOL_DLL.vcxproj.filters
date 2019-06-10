@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="PETool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InlineHook.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Inject_RemoteThreadInject.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Inject_ReflectInject.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyVariable.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyFunc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InlineHook.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Inject_RemoteThreadInject.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Inject_ReflectInject.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PEStruct_X64.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{25fec4c0-eb51-413d-8021-9b347b0e5fe9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{60e77825-cb3f-4a6d-a1ee-85d7727c5503}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
